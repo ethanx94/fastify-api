@@ -9,8 +9,8 @@ exports.addCarSchema = {
       brand: { type: 'string' },
       price: { type: 'string' },
       age: { type: 'number' },
-      services: { type: 'object' }
-    }
+      services: { type: 'object' },
+    },
   },
   response: {
     200: {
@@ -23,8 +23,8 @@ exports.addCarSchema = {
         price: { type: 'string' },
         age: { type: 'number' },
         services: { type: 'object' },
-        __v: { type: 'number' }
-      }
-    }
-  }
-}
+        __v: { type: 'number' },
+      },
+    },
+  },
+};
